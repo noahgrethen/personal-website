@@ -4,7 +4,8 @@
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
 html {
-  font-size: 62.5%;
+  /*font-size: 62.5%;*/
+  font-size: 57.5%;
 }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -23,7 +24,8 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  /*color:#EF6D3D;*/
+  color:#FF4720;
 }
 a:focus {
   outline: thin dotted;
@@ -135,7 +137,8 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+  /*border-bottom-color:#EF6D3D;*/
+  border-bottom-color:#FF4720;
 }
 
 /* Utility classes */
