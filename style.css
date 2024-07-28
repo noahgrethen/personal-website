@@ -24,8 +24,8 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  /*color:#EF6D3D;*/
-  color:#880000;
+  color:#EF6D3D;
+  /*color:#880000;*/
 }
 a:focus {
   outline: thin dotted;
@@ -112,9 +112,13 @@ header {
 }
 
 #content, footer { 
-  background: rgba(0,0,0,0);
+  /*background: rgba(0,0,0,0);
   padding:25px;
-  color:#000000; 
+  color:#000000;*/ 
+
+  background: rgba(0,0,0,.8);
+  padding:15px;
+  color:#FFFFFF;
 }
 
 /* Menu Links */
