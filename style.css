@@ -25,7 +25,7 @@ a {
   font-weight: normal;
   text-decoration: none; 
   /*color:#EF6D3D;*/
-  color:#FF4720;
+  color:#880000;
 }
 a:focus {
   outline: thin dotted;
@@ -138,7 +138,7 @@ ul.main-menu li a:hover {
 ul.main-menu li a.active {
   color:#FFFFFF;
   /*border-bottom-color:#EF6D3D;*/
-  border-bottom-color:#FF4720;
+  border-bottom-color:#880000;
 }
 
 /* Utility classes */
