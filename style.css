@@ -103,10 +103,16 @@ body {
   max-width:800px;
   margin:25px auto;
 }
-header, #content, footer { 
+header { 
   background: rgba(0,0,0,.8);
   padding:25px;
   color:#FFFFFF; 
+}
+
+#content, footer { 
+  background: rgba(0,0,0,0);
+  padding:25px;
+  color:#000000; 
 }
 
 /* Menu Links */
